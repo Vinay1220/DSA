@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FoundSecondMax {
+public class FoundSecondMax{
     public static void print(int arr[]){
         for (int i : arr) {
             System.out.println(i);
