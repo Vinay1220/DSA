@@ -9,6 +9,7 @@ public class Swap_Demo3 {
         swap(arr,other);
         System.out.println(arr[0]+ " "+ arr[1]);
     }
+    
     public static void swap( int[]arr, int[]other){
         int[] temp = arr;
         arr = other;
