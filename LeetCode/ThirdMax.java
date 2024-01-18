@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class ThirdMax{
     public static void main(String[] args) {
