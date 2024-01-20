@@ -1,20 +1,20 @@
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 
-import javax.swing.tree.TreeNode;
+// import javax.swing.tree.TreeNode;
 
-public class Binary_Tree_Inorder_Traversal94 {
-    public static void main(String[] args) {
+// public class Binary_Tree_Inorder_Traversal94 {
+//     public static void main(String[] args) {
+//         TreeNode root = [1,null,2,3];
+//     }
+//     List<Integer> arr = new ArrayList<>();
+//      public List<Integer> inorderTraversal(TreeNode root) {
         
-    }
-    List<Integer> arr = new ArrayList<>();
-     public List<Integer> inorderTraversal(TreeNode root) {
-        
-        if (root!=null) {
-            inorderTraversal(root.left);
-             arr.add(root.val);
-            inorderTraversal(root.right);
-        }
-        return arr;
-    }
-}
+//         if (root!=null) {
+//             inorderTraversal(root.left);
+//              arr.add(root.val);
+//             inorderTraversal(root.right);
+//         }
+//         return arr;
+//     }
+// }
