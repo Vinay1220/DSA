@@ -1,3 +1,8 @@
+
+// approch: it takes O(log(n)) time complexity and given array is sorted it means we can apply 
+//         Binary search 
+
+
 public class Maximum_Count_of_Positive_Integer_and_Negative_Integer2529 {
     public static void main(String[] args) {
         int [] nums = {-1,-2,-3,0,0,0,0,0,2,3,4,5,6};
