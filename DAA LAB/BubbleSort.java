@@ -55,7 +55,7 @@ public class BubbleSort {
         for (int i = 0; i < 3; i++) {
             System.out.println(marks[i] + " " + rollno[i]);
         }
-
+    
 
 
     }    
