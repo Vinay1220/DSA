@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Palindrome_Linked_List234 {
+    public static void main(String[] args) {
+        
+    }
+    public boolean isPalindrome(ListNode head) {
+        if(head == null || head.next == null){
+            return true;
+        }
+        List<Integer> l = new ArrayList<>();
+        while(head != null){
+            l.add(head.val);
+            head = head.next;
+        }
+        int start = 0;
+        int end = l.size()-1;
+        while(start<end){
+            if(l.get(start) != l.get(end)){
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+}
